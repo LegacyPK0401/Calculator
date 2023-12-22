@@ -8,7 +8,7 @@
 .container{
     width:100%;
     height: 100vh;
-    background: #e3f9fff;
+    background: linear-gradient( rgb(63, 63, 63), rgb(0, 169, 169));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,6 +38,8 @@ form .display{
     display: flex;
     justify-content: flex-end;
     margin: 20px 0;
+    background-color: rgba(51,255,216, 0.1);
+    border-radius: 10px;
 }
 
 form .display input{
@@ -49,4 +51,8 @@ form .display input{
 
 form input.equal{
     width:145px;
+}
+
+form input.operator { 
+    color: #33ffd8;
 }
